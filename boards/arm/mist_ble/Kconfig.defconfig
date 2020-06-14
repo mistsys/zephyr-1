@@ -1,0 +1,12 @@
+# Kconfig - Mist APHX board configuration
+#
+# Copyright (c) 2019 Mist Systems Inc.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_MIST_BLE
+
+config BOARD
+	default "mist_ble"
+
+endif # BOARD_MIST_APHX
